@@ -219,11 +219,25 @@ I'm focused on developing my skills in **Microsoft Azure, cloud operations, netw
 
 ## `07 / CONTRIBUTION SNAKE`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake.svg">
-  <img alt="Animação da cobra percorrendo minhas contribuições no GitHub" src="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake.svg">
-</picture>
+<div align="center">
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Claudioalves05/Claudioalves05/output/snake.svg"
+      alt="Snake animation of GitHub contributions"
+      width="100%"
+    />
+  </picture>
+
+</div>
 
 
 <!-- ==================== SOCIALS ==================== -->
