@@ -1,0 +1,33 @@
+
+name: Generate Snake Contribution
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Claudioalves05
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=2589ff
+
+      - name: Publish animation
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
